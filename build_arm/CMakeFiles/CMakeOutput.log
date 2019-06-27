@@ -1,0 +1,630 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 4.18.0-24-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /bin/armv8-sony-linux-gnueabihf-gcc 
+Build flags: -mfloat-abi=hard;-march=armv8-a+simd;--static;-Os;-s
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/src/build_arm/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /bin/armv8-sony-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/src/build_arm/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abec8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abec8.dir/build.make CMakeFiles/cmTC_abec8.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abec8.dir/testCCompiler.c.o
+/bin/armv8-sony-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_abec8.dir/testCCompiler.c.o   -c /src/build_arm/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_abec8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abec8.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-gcc      CMakeFiles/cmTC_abec8.dir/testCCompiler.c.o  -o cmTC_abec8 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bcaf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bcaf2.dir/build.make CMakeFiles/cmTC_bcaf2.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o
+/bin/armv8-sony-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_bcaf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcaf2.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o  -o cmTC_bcaf2 
+Using built-in specs.
+COLLECT_GCC=/bin/armv8-sony-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper
+Target: armv8-sony-linux-gnueabihf
+Configured with: /home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=armv8-sony-linux-gnueabihf --prefix=/home/screemer/x-tools/armv8-sony-linux-gnueabihf --with-sysroot=/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a53 --with-fpu=neon-vfpv4 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0-rc1.20-2a1e0cb' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-mpfr=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-mpc=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-isl=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot --enable-long-long
+Thread model: posix
+gcc version 8.2.0 (crosstool-NG 1.24.0-rc1.20-2a1e0cb) 
+COMPILER_PATH=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/:/bin/../libexec/gcc/:/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/bin/
+LIBRARY_PATH=/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/:/bin/../lib/gcc/:/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib/:/bin/../armv8-sony-linux-gnueabihf/sysroot/lib/:/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bcaf2' '-mcpu=cortex-a53' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv8-a+crc+simd'
+ /bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/collect2 -plugin /bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/liblto_plugin.so -plugin-opt=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnjX1yp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/bin/../armv8-sony-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_bcaf2 /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crt1.o /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crti.o /bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtbegin.o -L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0 -L/bin/../lib/gcc -L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib -L/bin/../armv8-sony-linux-gnueabihf/sysroot/lib -L/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtend.o /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bcaf2' '-mcpu=cortex-a53' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv8-a+crc+simd'
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(armv8-sony-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /src/build_arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bcaf2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bcaf2.dir/build.make CMakeFiles/cmTC_bcaf2.dir/build]
+  ignore line: [make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/armv8-sony-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_bcaf2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcaf2.dir/link.txt --verbose=1]
+  ignore line: [/bin/armv8-sony-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o  -o cmTC_bcaf2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/bin/armv8-sony-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper]
+  ignore line: [Target: armv8-sony-linux-gnueabihf]
+  ignore line: [Configured with: /home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=armv8-sony-linux-gnueabihf --prefix=/home/screemer/x-tools/armv8-sony-linux-gnueabihf --with-sysroot=/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a53 --with-fpu=neon-vfpv4 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0-rc1.20-2a1e0cb' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-mpfr=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-mpc=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-isl=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (crosstool-NG 1.24.0-rc1.20-2a1e0cb) ]
+  ignore line: [COMPILER_PATH=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/:/bin/../libexec/gcc/:/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/:/bin/../lib/gcc/:/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib/:/bin/../armv8-sony-linux-gnueabihf/sysroot/lib/:/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bcaf2' '-mcpu=cortex-a53' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv8-a+crc+simd']
+  link line: [ /bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/collect2 -plugin /bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/liblto_plugin.so -plugin-opt=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnjX1yp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/bin/../armv8-sony-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_bcaf2 /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crt1.o /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crti.o /bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtbegin.o -L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0 -L/bin/../lib/gcc -L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib -L/bin/../armv8-sony-linux-gnueabihf/sysroot/lib -L/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtend.o /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnjX1yp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/bin/../armv8-sony-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bcaf2] ==> ignore
+    arg [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtbegin.o] ==> ignore
+    arg [-L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0] ==> dir [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0]
+    arg [-L/bin/../lib/gcc] ==> dir [/bin/../lib/gcc]
+    arg [-L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib] ==> dir [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib]
+    arg [-L/bin/../armv8-sony-linux-gnueabihf/sysroot/lib] ==> dir [/bin/../armv8-sony-linux-gnueabihf/sysroot/lib]
+    arg [-L/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib] ==> dir [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_bcaf2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtend.o] ==> ignore
+    arg [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0] ==> [/lib/gcc/armv8-sony-linux-gnueabihf/8.2.0]
+  collapse library dir [/bin/../lib/gcc] ==> [/lib/gcc]
+  collapse library dir [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib] ==> [/armv8-sony-linux-gnueabihf/lib]
+  collapse library dir [/bin/../armv8-sony-linux-gnueabihf/sysroot/lib] ==> [/armv8-sony-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib] ==> [/armv8-sony-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/lib/gcc/armv8-sony-linux-gnueabihf/8.2.0;/lib/gcc;/armv8-sony-linux-gnueabihf/lib;/armv8-sony-linux-gnueabihf/sysroot/lib;/armv8-sony-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa8f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa8f8.dir/build.make CMakeFiles/cmTC_fa8f8.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa8f8.dir/feature_tests.c.o
+/bin/armv8-sony-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_fa8f8.dir/feature_tests.c.o   -c /src/build_arm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fa8f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa8f8.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-gcc      CMakeFiles/cmTC_fa8f8.dir/feature_tests.c.o  -o cmTC_fa8f8 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89b5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89b5b.dir/build.make CMakeFiles/cmTC_89b5b.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89b5b.dir/feature_tests.c.o
+/bin/armv8-sony-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_89b5b.dir/feature_tests.c.o   -c /src/build_arm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_89b5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89b5b.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-gcc      CMakeFiles/cmTC_89b5b.dir/feature_tests.c.o  -o cmTC_89b5b 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41d00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41d00.dir/build.make CMakeFiles/cmTC_41d00.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41d00.dir/feature_tests.c.o
+/bin/armv8-sony-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_41d00.dir/feature_tests.c.o   -c /src/build_arm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_41d00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41d00.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-gcc      CMakeFiles/cmTC_41d00.dir/feature_tests.c.o  -o cmTC_41d00 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0e59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0e59.dir/build.make CMakeFiles/cmTC_b0e59.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b0e59.dir/testCXXCompiler.cxx.o
+/bin/armv8-sony-linux-gnueabihf-g++     -o CMakeFiles/cmTC_b0e59.dir/testCXXCompiler.cxx.o -c /src/build_arm/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b0e59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0e59.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-g++       CMakeFiles/cmTC_b0e59.dir/testCXXCompiler.cxx.o  -o cmTC_b0e59 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e99a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e99a.dir/build.make CMakeFiles/cmTC_0e99a.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o
+/bin/armv8-sony-linux-gnueabihf-g++     -o CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_0e99a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e99a.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-g++      -v CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0e99a 
+Using built-in specs.
+COLLECT_GCC=/bin/armv8-sony-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper
+Target: armv8-sony-linux-gnueabihf
+Configured with: /home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=armv8-sony-linux-gnueabihf --prefix=/home/screemer/x-tools/armv8-sony-linux-gnueabihf --with-sysroot=/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a53 --with-fpu=neon-vfpv4 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0-rc1.20-2a1e0cb' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-mpfr=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-mpc=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-isl=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot --enable-long-long
+Thread model: posix
+gcc version 8.2.0 (crosstool-NG 1.24.0-rc1.20-2a1e0cb) 
+COMPILER_PATH=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/:/bin/../libexec/gcc/:/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/bin/
+LIBRARY_PATH=/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/:/bin/../lib/gcc/:/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib/:/bin/../armv8-sony-linux-gnueabihf/sysroot/lib/:/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e99a' '-shared-libgcc' '-mcpu=cortex-a53' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv8-a+crc+simd'
+ /bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/collect2 -plugin /bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/liblto_plugin.so -plugin-opt=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccC2raLO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/bin/../armv8-sony-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_0e99a /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crt1.o /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crti.o /bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtbegin.o -L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0 -L/bin/../lib/gcc -L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib -L/bin/../armv8-sony-linux-gnueabihf/sysroot/lib -L/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtend.o /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e99a' '-shared-libgcc' '-mcpu=cortex-a53' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv8-a+crc+simd'
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(armv8-sony-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /src/build_arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0e99a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0e99a.dir/build.make CMakeFiles/cmTC_0e99a.dir/build]
+  ignore line: [make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bin/armv8-sony-linux-gnueabihf-g++     -o CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_0e99a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e99a.dir/link.txt --verbose=1]
+  ignore line: [/bin/armv8-sony-linux-gnueabihf-g++      -v CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0e99a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/bin/armv8-sony-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper]
+  ignore line: [Target: armv8-sony-linux-gnueabihf]
+  ignore line: [Configured with: /home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=armv8-sony-linux-gnueabihf --prefix=/home/screemer/x-tools/armv8-sony-linux-gnueabihf --with-sysroot=/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a53 --with-fpu=neon-vfpv4 --with-float=hard --with-pkgversion='crosstool-NG 1.24.0-rc1.20-2a1e0cb' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-mpfr=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-mpc=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --with-isl=/home/screemer/NewToolchain/WorkDir/.build/armv8-sony-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (crosstool-NG 1.24.0-rc1.20-2a1e0cb) ]
+  ignore line: [COMPILER_PATH=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/:/bin/../libexec/gcc/:/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/:/bin/../lib/gcc/:/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib/:/bin/../armv8-sony-linux-gnueabihf/sysroot/lib/:/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e99a' '-shared-libgcc' '-mcpu=cortex-a53' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv8-a+crc+simd']
+  link line: [ /bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/collect2 -plugin /bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/liblto_plugin.so -plugin-opt=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccC2raLO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/bin/../armv8-sony-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_0e99a /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crt1.o /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crti.o /bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtbegin.o -L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0 -L/bin/../lib/gcc -L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib -L/bin/../armv8-sony-linux-gnueabihf/sysroot/lib -L/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtend.o /bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/bin/../libexec/gcc/armv8-sony-linux-gnueabihf/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccC2raLO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/bin/../armv8-sony-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0e99a] ==> ignore
+    arg [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtbegin.o] ==> ignore
+    arg [-L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0] ==> dir [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0]
+    arg [-L/bin/../lib/gcc] ==> dir [/bin/../lib/gcc]
+    arg [-L/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib] ==> dir [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib]
+    arg [-L/bin/../armv8-sony-linux-gnueabihf/sysroot/lib] ==> dir [/bin/../armv8-sony-linux-gnueabihf/sysroot/lib]
+    arg [-L/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib] ==> dir [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_0e99a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/crtend.o] ==> ignore
+    arg [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0] ==> [/lib/gcc/armv8-sony-linux-gnueabihf/8.2.0]
+  collapse library dir [/bin/../lib/gcc] ==> [/lib/gcc]
+  collapse library dir [/bin/../lib/gcc/armv8-sony-linux-gnueabihf/8.2.0/../../../../armv8-sony-linux-gnueabihf/lib] ==> [/armv8-sony-linux-gnueabihf/lib]
+  collapse library dir [/bin/../armv8-sony-linux-gnueabihf/sysroot/lib] ==> [/armv8-sony-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/bin/../armv8-sony-linux-gnueabihf/sysroot/usr/lib] ==> [/armv8-sony-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/lib/gcc/armv8-sony-linux-gnueabihf/8.2.0;/lib/gcc;/armv8-sony-linux-gnueabihf/lib;/armv8-sony-linux-gnueabihf/sysroot/lib;/armv8-sony-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6a2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6a2d.dir/build.make CMakeFiles/cmTC_d6a2d.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6a2d.dir/feature_tests.cxx.o
+/bin/armv8-sony-linux-gnueabihf-g++    -std=c++1z -o CMakeFiles/cmTC_d6a2d.dir/feature_tests.cxx.o -c /src/build_arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d6a2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6a2d.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-g++       CMakeFiles/cmTC_d6a2d.dir/feature_tests.cxx.o  -o cmTC_d6a2d 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e938/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e938.dir/build.make CMakeFiles/cmTC_1e938.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e938.dir/feature_tests.cxx.o
+/bin/armv8-sony-linux-gnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_1e938.dir/feature_tests.cxx.o -c /src/build_arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1e938
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e938.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-g++       CMakeFiles/cmTC_1e938.dir/feature_tests.cxx.o  -o cmTC_1e938 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de761/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de761.dir/build.make CMakeFiles/cmTC_de761.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de761.dir/feature_tests.cxx.o
+/bin/armv8-sony-linux-gnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_de761.dir/feature_tests.cxx.o -c /src/build_arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_de761
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de761.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-g++       CMakeFiles/cmTC_de761.dir/feature_tests.cxx.o  -o cmTC_de761 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e083/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e083.dir/build.make CMakeFiles/cmTC_3e083.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e083.dir/feature_tests.cxx.o
+/bin/armv8-sony-linux-gnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_3e083.dir/feature_tests.cxx.o -c /src/build_arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3e083
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e083.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-g++       CMakeFiles/cmTC_3e083.dir/feature_tests.cxx.o  -o cmTC_3e083 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7b9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7b9e.dir/build.make CMakeFiles/cmTC_b7b9e.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7b9e.dir/CheckIncludeFile.c.o
+/bin/armv8-sony-linux-gnueabihf-gcc   -mfloat-abi=hard -march=armv8-a+simd -s -Os    -o CMakeFiles/cmTC_b7b9e.dir/CheckIncludeFile.c.o   -c /src/build_arm/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b7b9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b9e.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-gcc -mfloat-abi=hard -march=armv8-a+simd -s -Os     CMakeFiles/cmTC_b7b9e.dir/CheckIncludeFile.c.o  -o cmTC_b7b9e 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /src/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40878/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40878.dir/build.make CMakeFiles/cmTC_40878.dir/build
+make[1]: Entering directory '/src/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40878.dir/CheckFunctionExists.c.o
+/bin/armv8-sony-linux-gnueabihf-gcc   -mfloat-abi=hard -march=armv8-a+simd -s -Os -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_40878.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40878
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40878.dir/link.txt --verbose=1
+/bin/armv8-sony-linux-gnueabihf-gcc -mfloat-abi=hard -march=armv8-a+simd -s -Os -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_40878.dir/CheckFunctionExists.c.o  -o cmTC_40878 -lpthread 
+make[1]: Leaving directory '/src/build_arm/CMakeFiles/CMakeTmp'
+
+
